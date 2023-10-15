@@ -1,0 +1,57 @@
+body{
+    background-color: gray;
+    background-image:url('./images/graybackground.jpg');
+    color:white;
+    font-family:monospace;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-transform:full-width;
+    font-size:16px;
+
+}
+img {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.headDiv{
+
+    background-color:dimgrey;
+  
+    margin:auto;
+    width:50%;
+    padding:15px;
+    border-bottom-style:double;
+    border-bottom-width:6px;
+}
+
+nav.navDiv{
+     background-color:black;
+     color:white;
+     text-align:center;     
+     margin:auto;
+     width:50%;
+     padding:15px;
+     font-size:30px;
+    border-bottom-style:double;
+    border-bottom-width:6px;
+}
+
+main.mainDiv{
+     background-color:white;
+     color:black;
+     margin:auto;
+     width:50%;
+     padding:15px;
+     text-align:center;
+    border-bottom-style:double;
+    border-bottom-width:6px;
+}
+
+div.potatoimage{
+width:1000px; /*width of your image*/
+   height:1000px; /*height of your image*/
+   background-image:url('./images/steakwpotato.jpg');
+
+}
