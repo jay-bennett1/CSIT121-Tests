@@ -1,0 +1,148 @@
+body{
+    background-color: lightgray;
+    color:white;
+    font-family:monospace;
+    text-transform:full-width;
+    font-size:16px;
+    align-items:center;
+    justify-content:center;
+
+}
+table {
+            padding:10px;
+            margin:10px auto;
+            width: 40%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color:white;
+            color:black;
+            align-items:center;
+        }
+
+th, td {
+            border: 1px solid;
+            text-align: left;
+            padding: 8px;
+        }
+
+th {
+            background-color:black;
+            font-size:30px;
+            color:white;
+        }
+
+.header{
+
+    border-radius:9px;
+    margin-bottom:10px;
+    padding:5px;
+    background-color:black;
+    color:white;
+    text-align:center;
+}
+
+.ingredientsTab{
+
+    border-style:double;
+    float:left;
+    text-align:center;
+    width:38%;
+    border-radius:9px;
+    margin-bottom:10px;
+    background-color:dimgray;
+    color:white;
+
+
+}
+
+.instructionsTab{
+
+border-style:double;
+    margin-left:40%;
+    width:60%;
+    border-radius:9px;
+    margin-bottom:10px;
+    background-color:dimgray;
+    color:white;
+
+
+}
+
+a:hover {
+    color: white;
+}
+a:visited {
+    color: black;
+}
+a:link {
+    color: blue;
+    text-decoration: none; 
+}
+.container {
+    width: 80%;
+    background-color:gray; /* Set your desired container background color */
+    padding: 20px; /* Optional padding for the container */
+    margin:auto;
+}
+
+.bottomTab{
+
+ text-align:center;
+  font-size:20px;
+    margin-top:5%;
+    border-radius:9px;
+    margin-bottom:10px;
+    padding:5px;
+    background-color:dimgray;
+    color:white;
+}
+img {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.potatoimage{
+
+    margin-top:25px;
+    margin:auto;
+    border-radius:30px;
+    width:1000px;
+    height:1000px;
+   background-image:url('./images/steakwpotato.jpg');
+   background-repeat:no-repeat;
+   background-size:1000px 1000px;
+
+
+}
+
+@media only screen and (max-width: 768px){
+
+    .instructionsTab{
+        width:100%;
+        margin-left:0%;
+    }
+     .ingredientsTab{
+        width:100%;
+        float:none;
+        margin-left:0%;
+    }
+
+    .header{
+        width:100%;
+    }
+
+    .bottomTab{
+        width:100%;
+    }
+    div.potatoimage{
+            margin-top:25px;
+    margin:auto;
+    border-radius:30px;
+    width:200px;
+    height:200px;
+   background-image:url('./images/steakwpotato.jpg');
+   background-repeat:no-repeat;
+   background-size:100% 100%;
+    }
+
+}
